@@ -1,0 +1,135 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+* {
+  font-family: Poppins;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #2F3D6C;
+  font-size: 1.2em;
+  width: 50%;
+}
+
+.table td, .table th {
+  border: 2px solid #293967;
+}
+
+#title {
+  padding: 25px;
+  font-size: 1.5em;
+  border-bottom: 10px solid #2F3D6C;
+  background-color: #B4DFE5;
+  text-align: center;
+}
+
+.stakeholder-info {
+  text-align: left;
+  font-size: 1.2em;
+  background-color: #8DE4AF;
+}
+
+.product-cost {
+  text-align: right;
+  padding-left: 190px;
+}
+
+.foot, .table-header {
+  background-color: #575989;
+  color:white;
+  font-size: 1.5em;
+}
+
+.product-info {
+  font-size: 1.2em;
+}
+
+.product-info tr:nth-child(odd) {
+  background-color: #ECF5DD;
+}
+
+.form-table {
+  margin: 30px auto 0px auto;
+  border-collapse: collapse;
+  width: auto;
+  border: 5px solid #2F3D6C;
+}
+
+.form-table *{
+  font-size: 1.1em;
+}
+
+.form-table tr{
+  border-bottom: 2px solid gray;
+}
+
+.form-header {
+  background-color: #B4DFE5;
+}
+
+.form-header th{
+  padding: 20px 0px 20px 0px;
+  font-size: 1.3em;
+  color: darkblue;
+}
+
+.form-table td  {
+ padding: 20px; 
+}
+
+.Name input {
+  width: 90%;
+  margin-left: 20px;
+  border: 1px solid darkgray;
+  color:gray;
+  padding: 3px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.Sex  input{
+  margin-left: 20px;
+}
+
+.Eye-Color select {
+  width: 50%;
+  margin-left: 20px;
+  padding: 16px 20px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+
+.Submit input[type=submit]{
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 20px 150px;
+  text-decoration: none;
+  cursor:pointer;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+}
+
+.Submit input[type=submit]:hover{
+  background-color: white;
+  color: darkblue;
+  border: 2px solid darkblue;
+}
+
+.Submit input[type=submit]:active{
+  background-color: white;
+  color: darkblue;
+  border: 2px solid darkblue;
+  transform: scale(1.1);
+}
+
+.form-table p {
+  line-height: 1px;
+}
+
+.Athletic-Ability textarea{
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}

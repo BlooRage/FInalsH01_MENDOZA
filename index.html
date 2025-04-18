@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MENDOZA_FINALS HO1</title>
+    <link rel="Stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!--MENDOZA, JEROME T-->
+    <!--ITBD-->
+    
+    <!--Table-->
+    <table class="table">
+      
+      <!--Table title Row-->
+       <thead>
+         <tr>
+           <td id="title" colspan="4" >Invoice Tabular Data</td>
+         </tr>
+       </thead>
+      
+      <!--Invoice and Date Row-->
+      <tbody class="table-header">
+        <tr>
+          <th colspan = "2" align="left">Invoice #123456789</th>
+          <th colspan = "2" align="right">14 January 2025</th>
+        </tr>
+      </tbody>
+      
+      <!--Stakeholder Infos-->
+      <tbody class="stakeholder-info">
+        <tr>    
+          <td colspan="2"><strong>Pay to:</strong><br>
+            Acme Billing Co. <br>
+            123 Main St. <br>
+            Cityville, NA 12345
+          </td>
+          <td colspan="2"><strong>Customer:</strong><br>
+            John Smith <br>
+            321 Willow Way <br>
+            Southeast Northwestershire, MA 54321
+          </td>
+        </tr>
+      </tbody>
+      
+      <!--Products Header-->
+      <tbody class="table-header">
+        <tr>
+          <th align="left">Name / Description</th>
+          <th>Qty.</th>
+          <th>@</th>
+          <th class="product-cost">Cost</th>
+        </tr>
+      </tbody>
+      
+      <!--Product Details-->
+      <tbody class="product-info">`
+        <!--Row 1  Paperclips-->
+        <tr>
+          <td>Paperclips</td>
+          <td>1000</td>
+          <td align="center">0.01</td>
+          <td class="product-cost">10.00</td>
+        </tr>
+        
+        <!--Row 2  StaplesBox-->
+        <tr>
+          <td>Staples (box)</td>
+          <td>100</td>
+          <td align="center">1.00</td>
+          <td class="product-cost">100.00</td>
+        </tr>
+        
+        
+        <!--Row 3 Bondpaper-->
+        <tr>
+          <td>Bond Paper (box)</td>
+          <td>100</td>
+          <td align="center">1.00</td>
+          <td class="product-cost">110.00</td>
+        </tr>
+        
+        
+        <!--Row 4 Subtotal-->
+        <tr>
+          <td colspan="3"><strong>Subtotal</strong></td>
+          <td class="product-cost">110.00</td>
+        </tr>
+        
+        
+        <!--Row 5 Tax-->
+         <tr>
+          <td colspan="2"><strong>Tax</strong></td>
+          <td>8%</td>
+          <td class="product-cost">8.80</td>
+        </tr>
+      </tbody>
+      
+      <!--Product Total-->
+      <tfoot class="foot">
+        <tr>
+          <th colspan="3" align="left">Grand Total</th>
+          <td class="product-cost">$118.80</td>
+        </tr>
+      </tfoot>
+    </table>
+    
+    <!-- Form -->
+    <table class="form-table">
+      <form>
+        <!--Header Row-->
+        <thead class="form-header">
+          <th>Name</th>
+          <th>Value</th>
+        </thead>
+        
+        <tbody class="Name">
+          <tr>
+            <td>Name: </td>
+            <td><input type="text" id="txtName" value="Type your name here"></td>
+          </tr>
+        </tbody>
+        
+        <tbody class="Sex">
+          <tr>
+            <td>Sex: </td>
+            <td>
+              <p>
+              <input type="radio" name="radSex" id="radMale" value="Male"> Male
+              </p>
+              <p>
+              <input type="radio" name="radSex" id="radFemale" value="Female"> Female
+              </p>
+              <p>
+              <input type="radio" name="radSex" id="radOther" value="Other"> Other
+              </p>
+            </td>
+          </tr>
+        </tbody>
+        
+        <tbody class="Eye-Color">
+          <tr>
+            <td>Eye Color</td>
+            <td>
+              <p>
+                <select id ="eyeColor">
+                  <option value="#">Black</option>
+                  <option value="#">Brown</option>
+                  <option value="#">Amber</option>
+                  <option value="#">Green</option>
+                  <option value="#">Hazel</option>
+                  <option value="#">Blue</option>
+                  <option value="#">Green</option>
+                </select>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+
+         <tbody class="Physique">
+          <tr>
+            <td>Check all the Applies: </td>
+            <td>
+              <p>
+              <input type="checkbox" id="chk6ft" value="6+"> Over 6ft. Tall
+              </p>
+              <p>
+              <input type="checkbox" id="chkAbv200" value="200+"> Over 200 pounds
+              </p>
+              <p>
+              <input type="checkbox" id="chkblw200" value="200-"> Less than 200 pounds
+              </p>
+            </td>
+          </tr>
+        </tbody>
+        
+        <tbody class="Athletic-Ability">
+          <tr>
+            <td>Describe your athletic ability </td>
+            <td>
+              <textarea rows="5" cols="30"></textarea>
+            </td>
+          </tr>
+        </tbody>
+        
+        <tbody class="Submit">
+          <tr>
+            <td colspan="2" align="center"><input type="submit" value="Enter my Information"></td>
+          </tr>
+        </tbody>
+      </form>
+    </table> 
+  </body>
+</html>
